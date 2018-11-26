@@ -1,28 +1,27 @@
-Team_14
---- data
-	---- files 
-		----- train.csv
-		----- test.csv
-		----- valid.csv
-		----- articles.csv
-	---- r_files	
-		----- books_reps
-		---- BOOKS_REP_377.npy
-		----- AGE.npy
-		----- INFO.npy
-		----- RATE.npy
-		----- AGE_BOOKS.npy
-		----- idx_to_class.npy
-		----- idx_to_title.npy
+--- data <br>
+>---- files <br>
+----- train.csv <br>
+----- test.csv<br>
+----- valid.csv<br>
+----- articles.csv<br>
+---- r_files<br>
+----- books_reps<br>
+---- BOOKS_REP_377.npy<br>
+----- AGE.npy<br>
+----- INFO.npy<br>
+----- RATE.npy<br>
+----- AGE_BOOKS.npy<br>
+----- idx_to_class.npy<br>
+----- idx_to_title.npy<br>
 --- src
-		--- crawlers : Has files used for crawlering websites
-		--- models   : weights of the MLP
-		--- data_split.py   : splitting the WeeBit corpus into train,valid,test datasets
-		--- data_prep.py    : extract features
-		--- lexical_feat.py : extract lexical features
-		--- MLP_exp.py		: experiments to tune the parameters
-		--- model.py		: bulid the model with the best parameters
-		--- build_recommend.py : do the essentials for recommendation model(like do SVD,etc)
-		--- do_recommend.py    : run this for recommendation  
---- README
---- Report.pdf
+--- crawlers : Has files used for crawlering websites<br>
+--- models   : weights of the MLP<br>
+--- data_split.py   : splitting the WeeBit corpus into train,valid,test datasets<br>
+--- data_prep.py    : extract features<br>
+--- lexical_feat.py : extract lexical features<br>
+--- MLP_exp.py		: experiments to tune the parameters<br>
+--- model.py		: bulid the model with the best parameters<br>
+--- build_recommend.py : do the essentials for recommendation model(like do SVD,etc)<br>
+--- do_recommend.py    : run this for recommendation  <br>
+--- README<br>
+--- Report.pdf<br>
