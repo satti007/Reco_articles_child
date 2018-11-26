@@ -1,0 +1,28 @@
+Team_14
+--- data
+	---- files 
+		----- train.csv
+		----- test.csv
+		----- valid.csv
+		----- articles.csv
+	---- r_files	
+		----- books_reps
+		---- BOOKS_REP_377.npy
+		----- AGE.npy
+		----- INFO.npy
+		----- RATE.npy
+		----- AGE_BOOKS.npy
+		----- idx_to_class.npy
+		----- idx_to_title.npy
+--- src
+		--- crawlers : Has files used for crawlering websites
+		--- models   : weights of the MLP
+		--- data_split.py   : splitting the WeeBit corpus into train,valid,test datasets
+		--- data_prep.py    : extract features
+		--- lexical_feat.py : extract lexical features
+		--- MLP_exp.py		: experiments to tune the parameters
+		--- model.py		: bulid the model with the best parameters
+		--- build_recommend.py : do the essentials for recommendation model(like do SVD,etc)
+		--- do_recommend.py    : run this for recommendation  
+--- README
+--- Report.pdf
