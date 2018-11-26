@@ -1,18 +1,18 @@
 --- data <br>
->---- files <br>
------ train.csv <br>
------ test.csv<br>
------ valid.csv<br>
------ articles.csv<br>
----- r_files<br>
------ books_reps<br>
----- BOOKS_REP_377.npy<br>
------ AGE.npy<br>
------ INFO.npy<br>
------ RATE.npy<br>
------ AGE_BOOKS.npy<br>
------ idx_to_class.npy<br>
------ idx_to_title.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ---- files <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- train.csv <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- test.csv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- valid.csv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- articles.csv<br>
+&nbsp;&nbsp;&nbsp;&nbsp; ---- r_files<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- books_reps<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ---- BOOKS_REP_377.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- AGE.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- INFO.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- RATE.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- AGE_BOOKS.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- idx_to_class.npy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- idx_to_title.npy<br>
 --- src
 --- crawlers : Has files used for crawlering websites<br>
 --- models   : weights of the MLP<br>
