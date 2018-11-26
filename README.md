@@ -13,7 +13,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- AGE_BOOKS.npy<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- idx_to_class.npy<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----- idx_to_title.npy<br>
---- src
+--- src<br>
 &nbsp;&nbsp;&nbsp;&nbsp; --- crawlers : Has files used for crawlering websites<br>
 &nbsp;&nbsp;&nbsp;&nbsp; --- models   : weights of the MLP<br>
 &nbsp;&nbsp;&nbsp;&nbsp; --- data_split.py   : splitting the WeeBit corpus into train,valid,test datasets<br>
